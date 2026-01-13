@@ -1,0 +1,54 @@
+# Interactive Used Vehicle Market Dashboard
+
+## Overview
+This repository contains an interactive web application that allows users to explore used vehicle market data through dynamic visualisations.
+
+The application is built with **Python and Streamlit** and provides a simple interface to analyse vehicle attributes such as mileage and pricing. It is designed for quick exploratory analysis by non-technical users and stakeholders.
+
+---
+
+## Application Features
+- Interactive histogram for exploring vehicle attributes
+- Scatter plot to analyse relationships between variables
+- User controls (buttons or checkboxes) to toggle visualisations
+- Responsive layout suitable for browser-based access
+
+---
+
+## Live Demo
+The application is deployed and accessible via the following URL:
+
+https://<APP_NAME>.onrender.com/
+
+
+> Note: The application may take a few seconds to load if it has been inactive.
+
+---
+
+## How to Run the Application Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/<YOUR_USERNAME>/used-vehicle-market-dashboard.git
+cd used-vehicle-market-dashboard
+
+### 2. Create and activate a virtual environment
+python -m venv vehicles_env
+source vehicles_env/bin/activate  # macOS / Linux
+vehicles_env\Scripts\activate     # Windows
+
+### 3. Install dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+### 4. Run the application
+streamlit run app.py
+The app will be available in your browser at:
+http://localhost:8501
+
+Deployment
+The application is deployed as a cloud-based service using Render.
+Any updates pushed to the main branch can be redeployed manually via the Render dashboard.
+
+
+
