@@ -1,5 +1,5 @@
-Interactive web dashboard for exploring used vehicle market data, built with Python and Streamlit, and deployed to the cloud for real-time access.
 # Interactive Market Dashboard for Used Vehicle Listings
+Interactive web dashboard for exploring used vehicle market data, built with Python and Streamlit, and deployed to the cloud for real-time access.
 
 ## Project Overview
 This project delivers an interactive web dashboard designed to explore and visualise used vehicle market data. The application allows users to dynamically analyse key attributes such as mileage and pricing using interactive charts.
